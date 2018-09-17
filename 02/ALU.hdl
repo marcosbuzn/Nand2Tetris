@@ -54,7 +54,10 @@ CHIP ALU {
    And16(a=negX, b=negY, out=xAndY);
    Mux16(a=xAndY, b=xPlusY, sel=f, out=funcVar);
    Not16(in=funcVar, out=negFuncVar);
-   Mux16(a=funcVar, b=negFuncVar, sel=no, out=out);
+   Mux16(a=funcVar, b=negFuncVar, sel=no, out=out, out[0..7]=lowOut, out[8..15]=highOut, out[15]=ng);
    
-   
+   Or8Way(in=lowOut, out=zero1);
+   Or8Way(in=highOut, out=zero2);
+   Or(a=zero1, b=zero2, out=notZr);
+   Not(in=notZr, out=zr);
 }
