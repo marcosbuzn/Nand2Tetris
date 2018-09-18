@@ -7,10 +7,10 @@
 #
 # main()
 
-fout = open('ALU.tst', 'w')
+fout = open('ALU-nostat.tst', 'w')
 hdr = """load ALU.hdl,
 output-file ALU.out,
-compare-to ALU.cmp,
+compare-to ALU-nostat.cmp,
 output-list in%B2.8.2out%B2.1.2;
 """
 
@@ -23,7 +23,7 @@ fout.close()
 
 fout = open('ALU.out', 'w')
 fout.write('|    in    | out | \n')
-for i in range(255):
+for i in range(256):
     fout.write('|  '+format(i,'08b')+'  |  0  |\n')
 fout.write('|  '+format(255,'08b')+'  |  1  |\n')
 fout.close()
