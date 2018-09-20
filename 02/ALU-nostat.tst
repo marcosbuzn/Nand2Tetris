@@ -2,1027 +2,1027 @@ load ALU.hdl,
 output-file ALU.out,
 compare-to ALU-nostat.cmp,
 output-list in%B2.8.2out%B2.1.2;
-setin 0,
+set in 0,
 eval,
 output;
 
-setin 1,
+set in 1,
 eval,
 output;
 
-setin 2,
+set in 2,
 eval,
 output;
 
-setin 3,
+set in 3,
 eval,
 output;
 
-setin 4,
+set in 4,
 eval,
 output;
 
-setin 5,
+set in 5,
 eval,
 output;
 
-setin 6,
+set in 6,
 eval,
 output;
 
-setin 7,
+set in 7,
 eval,
 output;
 
-setin 8,
+set in 8,
 eval,
 output;
 
-setin 9,
+set in 9,
 eval,
 output;
 
-setin 10,
+set in 10,
 eval,
 output;
 
-setin 11,
+set in 11,
 eval,
 output;
 
-setin 12,
+set in 12,
 eval,
 output;
 
-setin 13,
+set in 13,
 eval,
 output;
 
-setin 14,
+set in 14,
 eval,
 output;
 
-setin 15,
+set in 15,
 eval,
 output;
 
-setin 16,
+set in 16,
 eval,
 output;
 
-setin 17,
+set in 17,
 eval,
 output;
 
-setin 18,
+set in 18,
 eval,
 output;
 
-setin 19,
+set in 19,
 eval,
 output;
 
-setin 20,
+set in 20,
 eval,
 output;
 
-setin 21,
+set in 21,
 eval,
 output;
 
-setin 22,
+set in 22,
 eval,
 output;
 
-setin 23,
+set in 23,
 eval,
 output;
 
-setin 24,
+set in 24,
 eval,
 output;
 
-setin 25,
+set in 25,
 eval,
 output;
 
-setin 26,
+set in 26,
 eval,
 output;
 
-setin 27,
+set in 27,
 eval,
 output;
 
-setin 28,
+set in 28,
 eval,
 output;
 
-setin 29,
+set in 29,
 eval,
 output;
 
-setin 30,
+set in 30,
 eval,
 output;
 
-setin 31,
+set in 31,
 eval,
 output;
 
-setin 32,
+set in 32,
 eval,
 output;
 
-setin 33,
+set in 33,
 eval,
 output;
 
-setin 34,
+set in 34,
 eval,
 output;
 
-setin 35,
+set in 35,
 eval,
 output;
 
-setin 36,
+set in 36,
 eval,
 output;
 
-setin 37,
+set in 37,
 eval,
 output;
 
-setin 38,
+set in 38,
 eval,
 output;
 
-setin 39,
+set in 39,
 eval,
 output;
 
-setin 40,
+set in 40,
 eval,
 output;
 
-setin 41,
+set in 41,
 eval,
 output;
 
-setin 42,
+set in 42,
 eval,
 output;
 
-setin 43,
+set in 43,
 eval,
 output;
 
-setin 44,
+set in 44,
 eval,
 output;
 
-setin 45,
+set in 45,
 eval,
 output;
 
-setin 46,
+set in 46,
 eval,
 output;
 
-setin 47,
+set in 47,
 eval,
 output;
 
-setin 48,
+set in 48,
 eval,
 output;
 
-setin 49,
+set in 49,
 eval,
 output;
 
-setin 50,
+set in 50,
 eval,
 output;
 
-setin 51,
+set in 51,
 eval,
 output;
 
-setin 52,
+set in 52,
 eval,
 output;
 
-setin 53,
+set in 53,
 eval,
 output;
 
-setin 54,
+set in 54,
 eval,
 output;
 
-setin 55,
+set in 55,
 eval,
 output;
 
-setin 56,
+set in 56,
 eval,
 output;
 
-setin 57,
+set in 57,
 eval,
 output;
 
-setin 58,
+set in 58,
 eval,
 output;
 
-setin 59,
+set in 59,
 eval,
 output;
 
-setin 60,
+set in 60,
 eval,
 output;
 
-setin 61,
+set in 61,
 eval,
 output;
 
-setin 62,
+set in 62,
 eval,
 output;
 
-setin 63,
+set in 63,
 eval,
 output;
 
-setin 64,
+set in 64,
 eval,
 output;
 
-setin 65,
+set in 65,
 eval,
 output;
 
-setin 66,
+set in 66,
 eval,
 output;
 
-setin 67,
+set in 67,
 eval,
 output;
 
-setin 68,
+set in 68,
 eval,
 output;
 
-setin 69,
+set in 69,
 eval,
 output;
 
-setin 70,
+set in 70,
 eval,
 output;
 
-setin 71,
+set in 71,
 eval,
 output;
 
-setin 72,
+set in 72,
 eval,
 output;
 
-setin 73,
+set in 73,
 eval,
 output;
 
-setin 74,
+set in 74,
 eval,
 output;
 
-setin 75,
+set in 75,
 eval,
 output;
 
-setin 76,
+set in 76,
 eval,
 output;
 
-setin 77,
+set in 77,
 eval,
 output;
 
-setin 78,
+set in 78,
 eval,
 output;
 
-setin 79,
+set in 79,
 eval,
 output;
 
-setin 80,
+set in 80,
 eval,
 output;
 
-setin 81,
+set in 81,
 eval,
 output;
 
-setin 82,
+set in 82,
 eval,
 output;
 
-setin 83,
+set in 83,
 eval,
 output;
 
-setin 84,
+set in 84,
 eval,
 output;
 
-setin 85,
+set in 85,
 eval,
 output;
 
-setin 86,
+set in 86,
 eval,
 output;
 
-setin 87,
+set in 87,
 eval,
 output;
 
-setin 88,
+set in 88,
 eval,
 output;
 
-setin 89,
+set in 89,
 eval,
 output;
 
-setin 90,
+set in 90,
 eval,
 output;
 
-setin 91,
+set in 91,
 eval,
 output;
 
-setin 92,
+set in 92,
 eval,
 output;
 
-setin 93,
+set in 93,
 eval,
 output;
 
-setin 94,
+set in 94,
 eval,
 output;
 
-setin 95,
+set in 95,
 eval,
 output;
 
-setin 96,
+set in 96,
 eval,
 output;
 
-setin 97,
+set in 97,
 eval,
 output;
 
-setin 98,
+set in 98,
 eval,
 output;
 
-setin 99,
+set in 99,
 eval,
 output;
 
-setin 100,
+set in 100,
 eval,
 output;
 
-setin 101,
+set in 101,
 eval,
 output;
 
-setin 102,
+set in 102,
 eval,
 output;
 
-setin 103,
+set in 103,
 eval,
 output;
 
-setin 104,
+set in 104,
 eval,
 output;
 
-setin 105,
+set in 105,
 eval,
 output;
 
-setin 106,
+set in 106,
 eval,
 output;
 
-setin 107,
+set in 107,
 eval,
 output;
 
-setin 108,
+set in 108,
 eval,
 output;
 
-setin 109,
+set in 109,
 eval,
 output;
 
-setin 110,
+set in 110,
 eval,
 output;
 
-setin 111,
+set in 111,
 eval,
 output;
 
-setin 112,
+set in 112,
 eval,
 output;
 
-setin 113,
+set in 113,
 eval,
 output;
 
-setin 114,
+set in 114,
 eval,
 output;
 
-setin 115,
+set in 115,
 eval,
 output;
 
-setin 116,
+set in 116,
 eval,
 output;
 
-setin 117,
+set in 117,
 eval,
 output;
 
-setin 118,
+set in 118,
 eval,
 output;
 
-setin 119,
+set in 119,
 eval,
 output;
 
-setin 120,
+set in 120,
 eval,
 output;
 
-setin 121,
+set in 121,
 eval,
 output;
 
-setin 122,
+set in 122,
 eval,
 output;
 
-setin 123,
+set in 123,
 eval,
 output;
 
-setin 124,
+set in 124,
 eval,
 output;
 
-setin 125,
+set in 125,
 eval,
 output;
 
-setin 126,
+set in 126,
 eval,
 output;
 
-setin 127,
+set in 127,
 eval,
 output;
 
-setin 128,
+set in 128,
 eval,
 output;
 
-setin 129,
+set in 129,
 eval,
 output;
 
-setin 130,
+set in 130,
 eval,
 output;
 
-setin 131,
+set in 131,
 eval,
 output;
 
-setin 132,
+set in 132,
 eval,
 output;
 
-setin 133,
+set in 133,
 eval,
 output;
 
-setin 134,
+set in 134,
 eval,
 output;
 
-setin 135,
+set in 135,
 eval,
 output;
 
-setin 136,
+set in 136,
 eval,
 output;
 
-setin 137,
+set in 137,
 eval,
 output;
 
-setin 138,
+set in 138,
 eval,
 output;
 
-setin 139,
+set in 139,
 eval,
 output;
 
-setin 140,
+set in 140,
 eval,
 output;
 
-setin 141,
+set in 141,
 eval,
 output;
 
-setin 142,
+set in 142,
 eval,
 output;
 
-setin 143,
+set in 143,
 eval,
 output;
 
-setin 144,
+set in 144,
 eval,
 output;
 
-setin 145,
+set in 145,
 eval,
 output;
 
-setin 146,
+set in 146,
 eval,
 output;
 
-setin 147,
+set in 147,
 eval,
 output;
 
-setin 148,
+set in 148,
 eval,
 output;
 
-setin 149,
+set in 149,
 eval,
 output;
 
-setin 150,
+set in 150,
 eval,
 output;
 
-setin 151,
+set in 151,
 eval,
 output;
 
-setin 152,
+set in 152,
 eval,
 output;
 
-setin 153,
+set in 153,
 eval,
 output;
 
-setin 154,
+set in 154,
 eval,
 output;
 
-setin 155,
+set in 155,
 eval,
 output;
 
-setin 156,
+set in 156,
 eval,
 output;
 
-setin 157,
+set in 157,
 eval,
 output;
 
-setin 158,
+set in 158,
 eval,
 output;
 
-setin 159,
+set in 159,
 eval,
 output;
 
-setin 160,
+set in 160,
 eval,
 output;
 
-setin 161,
+set in 161,
 eval,
 output;
 
-setin 162,
+set in 162,
 eval,
 output;
 
-setin 163,
+set in 163,
 eval,
 output;
 
-setin 164,
+set in 164,
 eval,
 output;
 
-setin 165,
+set in 165,
 eval,
 output;
 
-setin 166,
+set in 166,
 eval,
 output;
 
-setin 167,
+set in 167,
 eval,
 output;
 
-setin 168,
+set in 168,
 eval,
 output;
 
-setin 169,
+set in 169,
 eval,
 output;
 
-setin 170,
+set in 170,
 eval,
 output;
 
-setin 171,
+set in 171,
 eval,
 output;
 
-setin 172,
+set in 172,
 eval,
 output;
 
-setin 173,
+set in 173,
 eval,
 output;
 
-setin 174,
+set in 174,
 eval,
 output;
 
-setin 175,
+set in 175,
 eval,
 output;
 
-setin 176,
+set in 176,
 eval,
 output;
 
-setin 177,
+set in 177,
 eval,
 output;
 
-setin 178,
+set in 178,
 eval,
 output;
 
-setin 179,
+set in 179,
 eval,
 output;
 
-setin 180,
+set in 180,
 eval,
 output;
 
-setin 181,
+set in 181,
 eval,
 output;
 
-setin 182,
+set in 182,
 eval,
 output;
 
-setin 183,
+set in 183,
 eval,
 output;
 
-setin 184,
+set in 184,
 eval,
 output;
 
-setin 185,
+set in 185,
 eval,
 output;
 
-setin 186,
+set in 186,
 eval,
 output;
 
-setin 187,
+set in 187,
 eval,
 output;
 
-setin 188,
+set in 188,
 eval,
 output;
 
-setin 189,
+set in 189,
 eval,
 output;
 
-setin 190,
+set in 190,
 eval,
 output;
 
-setin 191,
+set in 191,
 eval,
 output;
 
-setin 192,
+set in 192,
 eval,
 output;
 
-setin 193,
+set in 193,
 eval,
 output;
 
-setin 194,
+set in 194,
 eval,
 output;
 
-setin 195,
+set in 195,
 eval,
 output;
 
-setin 196,
+set in 196,
 eval,
 output;
 
-setin 197,
+set in 197,
 eval,
 output;
 
-setin 198,
+set in 198,
 eval,
 output;
 
-setin 199,
+set in 199,
 eval,
 output;
 
-setin 200,
+set in 200,
 eval,
 output;
 
-setin 201,
+set in 201,
 eval,
 output;
 
-setin 202,
+set in 202,
 eval,
 output;
 
-setin 203,
+set in 203,
 eval,
 output;
 
-setin 204,
+set in 204,
 eval,
 output;
 
-setin 205,
+set in 205,
 eval,
 output;
 
-setin 206,
+set in 206,
 eval,
 output;
 
-setin 207,
+set in 207,
 eval,
 output;
 
-setin 208,
+set in 208,
 eval,
 output;
 
-setin 209,
+set in 209,
 eval,
 output;
 
-setin 210,
+set in 210,
 eval,
 output;
 
-setin 211,
+set in 211,
 eval,
 output;
 
-setin 212,
+set in 212,
 eval,
 output;
 
-setin 213,
+set in 213,
 eval,
 output;
 
-setin 214,
+set in 214,
 eval,
 output;
 
-setin 215,
+set in 215,
 eval,
 output;
 
-setin 216,
+set in 216,
 eval,
 output;
 
-setin 217,
+set in 217,
 eval,
 output;
 
-setin 218,
+set in 218,
 eval,
 output;
 
-setin 219,
+set in 219,
 eval,
 output;
 
-setin 220,
+set in 220,
 eval,
 output;
 
-setin 221,
+set in 221,
 eval,
 output;
 
-setin 222,
+set in 222,
 eval,
 output;
 
-setin 223,
+set in 223,
 eval,
 output;
 
-setin 224,
+set in 224,
 eval,
 output;
 
-setin 225,
+set in 225,
 eval,
 output;
 
-setin 226,
+set in 226,
 eval,
 output;
 
-setin 227,
+set in 227,
 eval,
 output;
 
-setin 228,
+set in 228,
 eval,
 output;
 
-setin 229,
+set in 229,
 eval,
 output;
 
-setin 230,
+set in 230,
 eval,
 output;
 
-setin 231,
+set in 231,
 eval,
 output;
 
-setin 232,
+set in 232,
 eval,
 output;
 
-setin 233,
+set in 233,
 eval,
 output;
 
-setin 234,
+set in 234,
 eval,
 output;
 
-setin 235,
+set in 235,
 eval,
 output;
 
-setin 236,
+set in 236,
 eval,
 output;
 
-setin 237,
+set in 237,
 eval,
 output;
 
-setin 238,
+set in 238,
 eval,
 output;
 
-setin 239,
+set in 239,
 eval,
 output;
 
-setin 240,
+set in 240,
 eval,
 output;
 
-setin 241,
+set in 241,
 eval,
 output;
 
-setin 242,
+set in 242,
 eval,
 output;
 
-setin 243,
+set in 243,
 eval,
 output;
 
-setin 244,
+set in 244,
 eval,
 output;
 
-setin 245,
+set in 245,
 eval,
 output;
 
-setin 246,
+set in 246,
 eval,
 output;
 
-setin 247,
+set in 247,
 eval,
 output;
 
-setin 248,
+set in 248,
 eval,
 output;
 
-setin 249,
+set in 249,
 eval,
 output;
 
-setin 250,
+set in 250,
 eval,
 output;
 
-setin 251,
+set in 251,
 eval,
 output;
 
-setin 252,
+set in 252,
 eval,
 output;
 
-setin 253,
+set in 253,
 eval,
 output;
 
-setin 254,
+set in 254,
 eval,
 output;
 
-setin 255,
+set in 255,
 eval,
 output;
 

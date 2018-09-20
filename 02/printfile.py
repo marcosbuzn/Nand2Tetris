@@ -1,11 +1,4 @@
-# def main():
-#     fname = raw_input("Enter filename: ")
-#     infile = open(fname ,'r')
-#     data = infile.read()
-#     print data
-#
-#
-# main()
+#Printing test files to .tst and output to .out 
 
 fout = open('ALU-nostat.tst', 'w')
 hdr = """load ALU.hdl,
