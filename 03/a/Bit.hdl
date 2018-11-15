@@ -14,7 +14,8 @@ CHIP Bit {
     OUT out;
 
     PARTS:
-    // Put your code here:
+    // A bit is designated to store a bit of data.
+	// It stores this bit until another bit is stored.
 	Mux(a=out1, b=in, sel=load, out=in1);
 	DFF(in=in1, out=out1, out=out);
 }

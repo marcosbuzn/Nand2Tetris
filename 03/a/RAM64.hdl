@@ -15,7 +15,15 @@ CHIP RAM64 {
     OUT out[16];
 
     PARTS:
-    // Put your code here:
+    // RAM64 is an array of 8 RAM8 chips.
+	// RAM64 requires the use of 6 registers (2^6) 
+	// Each RAM must be assigned a unique address (some integer between 0 and n-1) in order to be accessed
+	// Each input is loaded corresponding to its data value and the RAM's output will start emitting it
+    // In order to select the register specified by the address, we need a DMux8Way and Mux8Way16
+	// The DMux8Way and Mux8Way16 would be assigned the remaining 3 address. 
+	// The DMux8Way would take in the 8 inputs simultaneously and the Mux8Way16 would be fed out the
+	// combinational logic circuit.
+	
 	DMux8Way(in=load, sel = address[3..5], a=load1, b=load2, c=load3, d=load4, e=load5, f=load6, g=load7, h=load8);
 	RAM8(in=in, load=load1, address=address[0..2], out=out1);
 	RAM8(in=in, load=load2, address=address[0..2], out=out2);
