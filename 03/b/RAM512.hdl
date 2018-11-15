@@ -3,6 +3,8 @@
 // MIT Press. Book site: www.idc.ac.il/tecs
 // File name: projects/03/b/RAM512.hdl
 
+// File coded by Jared Orange
+
 /**
  * Memory of 512 registers, each 16 bit-wide. Out holds the value
  * stored at the memory location specified by address. If load==1, then 
@@ -16,6 +18,18 @@ CHIP RAM512 {
 
     PARTS:
     // Put your code here:
+	
+	//     DOCUMENTATION    //
+	
+	// A RAM unit can only be built using smaller RAM parts. A RAM512
+	// is an array of 8 RAM64 chips (one below in size). RAM512 requires the use of 6 registers (2^6) 
+	// Each RAM must be assigned a unique address (some integer between 0 and n-1) in order to be accessed
+	// Each input is loaded corresponding to its data value and the RAM's output will start emitting it
+    // In order to select the register specified by the address, we need a DMux8Way and Mux8Way16
+	// The DMux8Way and Mux8Way16 would be assigned the remaining 2 address. 
+	// The DMux8Way would take in the 8 inputs simultaneously and the Mux8Way16 would be fed out the
+	// combinational logic circuit.
+	
 	DMux8Way(in=load, sel=address[6..8], a=load1, b=load2, c=load3, d=load4, e=load5, f=load6, g=load7, h=load8);
 	RAM64(in=in, load=load1, address=address[0..5], out=out1);
 	RAM64(in=in, load=load2, address=address[0..5], out=out2):
