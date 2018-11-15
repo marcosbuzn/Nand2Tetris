@@ -27,7 +27,7 @@ CHIP RAM16K {
 	// combinational logic circuit.
 	
     // Put your code here:
-	DMux4WayWay(in=load, sel=address[12..13], a=load1, b=load2, c=load3, d=load4);
+	DMux4Way(in=load, sel=address[12..13], a=load1, b=load2, c=load3, d=load4);
 	RAM4K(in=in, load=load1, address=[0..11], out=out1);
 	RAM4K(in=in, load=load2, address=[0..11], out=out2);
 	RAM4K(in=in, load=load3, address=[0..11], out=out3);
