@@ -15,7 +15,12 @@ CHIP Register {
     OUT out[16];
 	
 	// DOCUMENTATION //
-	// 
+	
+	// A Register is a storage device used to store values over time. A multi bit register
+	// can be constructed from an array of w bit chips (In this case, we are building a 16 bit register
+	// so we need 16 1 bit chips). The input pin carries the data from the numeric input and the load allows
+	// the array cell to be written in. The output pin carries out the current state of the array cell.
+	// The read and write is very similar to the Bit.hdl
 
     PARTS:
     // Put your code here:
