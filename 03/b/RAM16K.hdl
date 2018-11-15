@@ -17,8 +17,8 @@ CHIP RAM16K {
     OUT out[16];
 
     PARTS:
-	// A RAM64 is an array of 4 RAM4K chips (one below in size). 
-	// RAM4K requires the use of 14 registers (2^14) 
+	// A RAM16K is an array of 4 RAM4K chips (one below in size). 
+	// RAM16K requires the use of 14 registers (2^14) 
 	// Each RAM must be assigned a unique address (some integer between 0 and n-1) in order to be accessed
 	// Each input is loaded corresponding to its data value and the RAM's output will start emitting it
     // In order to select the register specified by the address, we need a DMux4Way and Mux4Way16
